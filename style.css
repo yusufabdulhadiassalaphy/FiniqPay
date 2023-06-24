@@ -1,0 +1,25 @@
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+h3 {
+  color: purple;
+  border: 2px solid purple;
+  text-align: center;
+}
+
+p {
+  border: 2px solid purple;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+
+body {
+  background-color: turquoise;
+  border-radius: 20px;
+}
