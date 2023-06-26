@@ -1,5 +1,6 @@
 # FiniqPay
 Pay Globally!
+
 FiniqPay is a fintech startup that aims to simplify both local and international payments, making them more accessible, efficient, and secure for individuals and businesses. By leveraging innovative technologies and strategic partnerships, FiniqPay provides a range of solutions to streamline the payment process and remove barriers that often arise during cross-border transactions.
 
 Key features and benefits of FiniqPay's payment solutions include:
