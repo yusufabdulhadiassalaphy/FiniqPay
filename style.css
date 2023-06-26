@@ -1,25 +1,68 @@
-h1 {
-  color: purple;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h3 {
-  color: purple;
-  border: 2px solid purple;
-  text-align: center;
+.menu-container {
+  color: #fff;
+  background-color: darkcyan;  /* darkcyan */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
-p {
-  border: 2px solid purple;
-  background-color: whitesmoke;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 15px;
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
 }
 
-body {
-  background-color: turquoise;
-  border-radius: 20px;
+.link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  border: 1px solid darkcyan;
+  color: white;
+  background-color: darkcyan;
+  border-radius: 2px;
+  margin-left: 25px;
+  
+  
+}
+
+.signup {
+  border: 1px solid darkcyan;
+  color: white;
+  background-color: darkcyan;
+  border-radius: 2px;
+}
+
+.header-container {
+  color: darkcyan;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 80px;
+  margin-right: 120px;
+  border-radius: 40px;
+  margin-bottom: 400px;
+}
+
+.subscribe {
+  margin-right: 50px;
+  margin-top: 250px;
 }
