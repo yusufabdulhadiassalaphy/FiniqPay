@@ -6,7 +6,7 @@
 
 .menu-container {
   color: #fff;
-  background-color: darkcyan;  /* darkcyan */
+  background-color: paleturquoise;  /* darkcyan */
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -24,45 +24,80 @@
 }
 
 .login {
+  width: 70px;
+  padding-left: 10px;
   border: 1px solid darkcyan;
-  color: white;
-  background-color: darkcyan;
-  border-radius: 2px;
+  color: darkcyan;
+  background-color: paleturquoise;
+  border-radius: 4px;
   margin-left: 25px;
   
   
 }
 
 .signup {
+  width: 70px;
+  padding-left: 8px;
   border: 1px solid darkcyan;
-  color: white;
-  background-color: darkcyan;
-  border-radius: 2px;
+  color: darkcyan;
+  background-color: paleturquoise;
+  border-radius: 4px;
 }
 
 .header-container {
   color: darkcyan;
-  background-color: lightcyan;
+  background-color: paleturquoise;
   display: flex;
   justify-content: center;
 }
 
 .header {
   width: 900px;
-  height: 550px;
+  height: 60px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 img {
   width: 80px;
-  margin-right: 120px;
+  margin-right: 40px;
   border-radius: 40px;
-  margin-bottom: 400px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 
-.subscribe {
-  margin-right: 50px;
-  margin-top: 250px;
+.container {
+display: flex;
+color: #fff;
+background-color: paleturquoise;
+padding: 20px 0;
+justify-content: center;
+}
+
+.s-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.send {
+  width: 60px;
+  padding-left: 10px;
+  border: 1px solid darkcyan;
+  color: darkcyan;
+  background-color: paleturquoise;;
+  border-radius: 4px;
+  margin-right: 25px;
+}
+
+.receive {
+  border: 1px solid darkcyan;
+  color: darkcyan;
+  background-color: paleturquoise;;
+  border-radius: 4px;
+  margin-left: 25px;
+}
+
+.date {
+  color: darkcyan;
 }
