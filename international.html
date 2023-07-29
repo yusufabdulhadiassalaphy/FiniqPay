@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>International payment</title>
+  <style>
+    img {
+     margin: 5px;
+     width: 80px;
+     margin-right: 40px;
+     border-radius: 40px;
+     margin-bottom: 30px;
+     margin-left: 30px;
+    }
+    
+    body {
+      background-color: paleturquoise;
+      font-family: Arial, Helvetica, sans-serif;
+      border: 2px solid darkcyan;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.9);
+    }
+    
+    h4 {
+      font-size: 20px;
+      font-weight: bolder;
+      color: darkcyan;
+      text-align: center;
+      margin: 10px;
+      border: 1px solid darkcyan;
+      border-radius: 7px 0px;
+    }
+    
+    #amount {
+      background-color: paleturquoise;
+      margin: 10px;
+      border: 1px solid darkcyan;
+      height: 25px;
+      margin-left: 80px;
+      border-radius: 7px 0px;
+    }
+    
+    #beneficiary {
+      background-color: paleturquoise;
+      margin: 10px;
+      border: 1px solid darkcyan;
+      height: 25px;
+      margin-left: 80px;
+      border-radius: 7px 0px;
+    }
+    
+    #AccountNo {
+      background-color: paleturquoise;
+      margin: 10px;
+      border: 1px solid darkcyan;
+      height: 25px;
+      margin-left: 80px;
+      border-radius: 7px 0px;
+    }
+    
+    #pin {
+      background-color: paleturquoise;
+      margin: 10px;
+      border: 1px solid darkcyan;
+      height: 25px;
+      margin-left: 40px;
+      border-radius: 7px 0px;
+    }
+    
+    a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      border: 1px solid darkcyan;
+      padding: 5px;
+      color: darkcyan;
+      margin: 30px;
+      border-radius: 7px 0px;
+    }
+    
+    label {
+      font-weight: bolder;
+      font-size: 15px;
+      font-style: italic;
+      margin-left: 10px;
+      color: darkcyan;
+    }
+    
+    h3 {
+      margin: 10px;
+      font-size: 15px;
+      font-style: italic;
+      color: black;
+    }
+    
+    #radio {
+      width: 10px;
+    }
+  </style>
+  <script>
+    function sayHello(){
+      alert('Transferred successful')
+    }
+  </script>
+</head>
+
+<body>
+<div class="payment-container">
+  <img src="images/logo.jpg" alt="Logo">
+  <h4>International payment</h4>
+  <form action="">
+    <label for="amount">Amount:</label>
+    <input type="number" name="amount" id="amount" placeholder="500,00"><br>
+    <h3>Currency</h3>
+    <label for="NGN">NGN</label>
+    <input type="radio" name="NGN" id="radio">
+    <label for="currency">USD</label>
+    <input type="radio" name="USD" id="radio">
+    <label for="JPY">JPY</label>
+    <input type="radio" id="radio" name="JPY">
+    <h3>Destination</h3>
+    <label for="Germany">Germany</label>
+    <input type="radio" id="radio" name="Nigeria">
+    <label for="USA">USA</label>
+    <input type="radio" id="radio" name="USA">
+    <label for="United Kingdom">United Kingdom</label>
+    <input type="radio" id="radio" name="United Kingdom"><br><br>
+    <label for="beneficiary">Beneficiary Name:</label>
+    <input type="text" id="beneficiary" name="beneficiary" placeholder="YUSUF ABDULHADI"><br>
+    <label for="Account No">Account No:</label>
+    <input type="text" name="Account No:" id="AccountNo" placeholder="4234569876"><br>
+  <label for="pin">Pin:</label>
+  <input type="number" id="pin" name="pin" placeholder="1234"><br>
+  <a href="" onclick="sayHello()">Send</a>
+  </form>
+</div>
+</body>
+
+</html>

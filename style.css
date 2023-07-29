@@ -1,3 +1,9 @@
+body {
+  background-color: paleturquoise;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -64,7 +70,7 @@ img {
   margin-right: 40px;
   border-radius: 40px;
   margin-bottom: 30px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .container {
@@ -73,6 +79,7 @@ color: #fff;
 background-color: paleturquoise;
 padding: 20px 0;
 justify-content: center;
+border-radius: 6px;
 }
 
 .s-link {
@@ -82,22 +89,120 @@ justify-content: center;
 
 .send {
   width: 60px;
-  padding-left: 10px;
+  padding: 5px;
   border: 1px solid darkcyan;
   color: darkcyan;
   background-color: paleturquoise;;
-  border-radius: 4px;
+  border-radius: 7px 0px;;
   margin-right: 25px;
 }
 
 .receive {
   border: 1px solid darkcyan;
   color: darkcyan;
-  background-color: paleturquoise;;
-  border-radius: 4px;
+  background-color: paleturquoise;
+  border-radius: 7px 0px;;
   margin-left: 25px;
+  padding: 5px;
 }
 
 .date {
   color: darkcyan;
 }
+
+.header1 {
+  display: flex;
+  border-radius: 50px 0px;
+  color: dimgrey;
+  background-color: paleturquoise;
+  height: 280px;
+  width: 300px;
+}
+
+.s-header1 {
+  display: flex;
+  padding: 10px 20px;
+  
+}
+
+.tap {
+  border-radius: 50px 0px;
+  margin-left: 21px;
+  width: 280px;
+  display: flex;
+  background-color: paleturquoise;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.9);
+}
+
+.one-click {
+  
+  display: block;
+  justify-items: space-around;
+  gap: 10px;
+  padding: 4px;
+  
+}
+
+a {
+  margin: 10px;
+  color: darkcyan;
+  display: block;
+  border: 1px solid darkcyan;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 7px 0px;
+  font-size: 13px;
+  gap: 5px;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: paleturquoise;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.call-to-container {
+  display: flex;
+  color: darkcyan;
+  padding: 10px;
+  
+}
+
+.gig {
+  display: flex;
+  align-self: center;
+  border: 1px solid darkcyan;
+  padding: 5px;
+  border-radius: 7px 0px;
+}
+
+.gig1 {
+  display: flex;
+  border: 1px solid darkcyan;
+  background-color: paleturquoise;
+  margin: 5px;
+  align-self: center;
+  height: 32px;
+  padding: 5px;
+  border-radius: 7px 0px;;
+}
+
+ #img {
+   width: 50px;
+   margin-left: 160px;
+ }
+ 
+ .motto {
+   font-size: 15px;
+   border: 1px solid darkcyan;
+   width: 190px;
+   border-radius: 10px 0px;
+   padding: 4px;
+   font-weight: bold;
+   }
